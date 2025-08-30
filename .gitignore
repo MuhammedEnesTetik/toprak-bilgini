@@ -1,0 +1,29 @@
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Sanal ortam
+.venv/
+env/
+venv/
+
+# Notebook checkpoint
+.ipynb_checkpoints/
+
+# Veri setleri ve modeller
+*.csv
+*.xlsx
+*.pkl
+*.h5
+
+# Ortam dosyaları
+*.env
+
+# Log dosyaları
+*.log
+
+# IDE/Editor
+.vscode/
+.idea/
