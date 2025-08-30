@@ -1,8 +1,16 @@
-# Python cache
+# =====================
+# Python
+# =====================
 __pycache__/
-*.pyc
+*.py[cod]
 *.pyo
 *.pyd
+*.pkl
+*.h5
+*.csv
+*.xlsx
+*.env
+*.log
 
 # Sanal ortam
 .venv/
@@ -12,18 +20,41 @@ venv/
 # Notebook checkpoint
 .ipynb_checkpoints/
 
-# Veri setleri ve modeller
-*.csv
-*.xlsx
-*.pkl
-*.h5
+# =====================
+# Flutter / Dart
+# =====================
+.dart_tool/
+.packages
+.pub-cache/
+build/
+pubspec.lock
 
-# Ortam dosyaları
-*.env
+# Android
+**/android/.gradle/
+**/android/local.properties
+**/android/key.properties
+**/android/app/google-services.json
 
-# Log dosyaları
-*.log
+# iOS
+**/ios/Flutter/.last_build_id
+**/ios/Pods/
+**/ios/Runner.xcworkspace/
+**/ios/*.xcuserstate
 
-# IDE/Editor
+# MacOS
+**/macos/Flutter/ephemeral/
+**/macos/Pods/
+
+# Windows
+**/windows/Flutter/ephemeral/
+
+# Linux
+**/linux/Flutter/ephemeral/
+
+# Web
+**/web/.dart_tool/
+
+# VSCode / IDE
 .vscode/
 .idea/
+*.iml
